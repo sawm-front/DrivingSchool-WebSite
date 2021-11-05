@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- OG метки -->
+   <meta name="keywords"
+      content="Автошкола, Автошкола Петергоф, Автошкола Ломоносов, Автошкола Петродворцовый район, Автошкола в Ломоносове, Автошкола в Петергофе, Ломоносовский район">
+   <meta property="og:url" content="https://lauraschool.ru">
+   <meta property="og:title" content="Автошкола Лаура, Петергоф, Ломоносов">
+   <meta property="og:description" content="Автошкола в Петродворцовом районе.Курсы по вождению. Категории A и B">
+   <meta property="og:image"
+      content="https://sun9-70.userapi.com/impf/tT0EBRLagVec7XfHuLKB_Md8leyNiz4eXEw8JA/d7RAHhnegG4.jpg?size=1590x400&quality=95&crop=51,276,1149,289&sign=951c675cfa836cb2ed682626f92fcfc2&type=cover_group">
+   <!-- Заголовок на вкладке -->
+   <meta property="og:image" content="http;s">
+   <title>Начать обучение</title>
+   <!-- favicon -->
+   <link rel="shortcut icon" type="image/png" href="img/favicon-laura.png">
+   <!-- Подключение шрифтов -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <!-- Подключение стилей -->
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+   <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Подключение скрипта -->
+   <script src="https://kit.fontawesome.com/9875810245.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <!-- Popup -->
+   <div style="display: none;">
+      <div class="box-modal" id="exampleModal">
+         <div class="box-modal_close arcticmodal-close">закрыть</div>
+         <form class="popup-form" action="send.php" method="POST">
+            <h4 class="popup__title">
+               Обратный звонок
+            </h4>
+            <input class="popup__input" type="tel" name="tel" placeholder="Телефон" id="tel">
+            <textarea class="popup__textarea" name="message" placeholder="Сообщение" id="message"></textarea>
+            <button class="btn popup__btn" type="submit" name="send" id="send">Отправить</button>
+         </form>
+      </div>
+   </div>
+   <!-- Шапка сайта мейл/телефон/соцсети -->
+   <header class="header">
+      <div class="header-inner">
+         <div class="container">
+            <div class="social">
+               <div class="social__contact">
+                  <div class="social__contact-item social__contact-item--phone">
+                     <a href="tel:88123381008" target="_blank">
+                        <i class="icon fa fa-phone-alt"></i>
+                        <span class="hide">
+                           8 (812) 338-10-08
+                        </span>
+                     </a>
+                  </div>
+                  <div class="social__contact-item">
+                     <a href="mailto:mail@lauraschool.ru" target="_blank">
+                        <i class="icon fa fa-mail-bulk"></i>
+                        <span class="hide">
+                           mail@lauraschool.ru
+                        </span>
+                     </a>
+                  </div>
+               </div>
+               <div class="social__media">
+                  <div class="social__media-item">
+                     <a href="https://vk.com/lauraschool" target="_blank">
+                        <i class="fab fa-vk"></i>
+                     </a>
+                  </div>
+                  <div class="social__media-item">
+                     <a href="https://instagram.com/lauraschoolspb" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                     </a>
+                  </div>
+                  <div class="social__media-item">
+                     <a href="tg://resolve?domain=Laura_school" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                     </a>
+                  </div>
+                  <div class="social__media-item">
+                     <a href="https://wa.me/79118481008" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                     </a>
+                  </div>
+                  <div class="social__media-item">
+                     <a href="viber://chat?number=%2B79118481008">
+                        <i class="fab fa-viber"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Навигация сайта (меню) -->
+      <div class="header-navigation">
+         <div class="container">
+            <div class="header-bottom">
+               <div class="header__logo logo">
+                  <a href="index.html">
+
+                  </a>
+               </div>
+               <ul class="header__nav">
+                  <li class="header__nav-item">
+                     <a href="index.html">
+                        Главная
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="start.html">
+                        Начать обучение
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="schedule.html">
+                        Расписание
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="https://vk.com/topic-187835462_40438621" target="_blank">
+                        Отзывы
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="contacts.html">
+                        Контакты
+                     </a>
+                  </li>
+               </ul>
+               <!-- Кнопка обратного звонка -->
+               <a class="btn btn__call" type="button">
+                  Заказать звонок
+               </a>
+               <div class="hamburger-wrap">
+                  <span class="hamburger" id="hamburger">
+
+                  </span>
+               </div>
+            </div>
+            <div class="menu-hidden" id="menu-hidden">
+               <ul class="hidden-list" id="hidden-list">
+                  <li class="header__nav-item">
+                     <div class="social__media">
+                        <div class="social__media-item">
+                           <a href="https://vk.com/lauraschool" target="_blank">
+                              <i class="fab fa-vk"></i>
+                           </a>
+                        </div>
+                        <div class="social__media-item">
+                           <a href="https://instagram.com/lauraschoolspb" target="_blank">
+                              <i class="fab fa-instagram"></i>
+                           </a>
+                        </div>
+                        <div class="social__media-item">
+                           <a href="tg://resolve?domain=Laura_school" target="_blank">
+                              <i class="fab fa-telegram"></i>
+                           </a>
+                        </div>
+                        <div class="social__media-item">
+                           <a href="https://wa.me/79118481008" target="_blank">
+                              <i class="fab fa-whatsapp"></i>
+                           </a>
+                        </div>
+                        <div class="social__media-item">
+                           <a href="viber://chat?number=%2B79118481008">
+                              <i class="fab fa-viber"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="index.html">
+                        Главная
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="start.html">
+                        Начать обучение
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="schedule.html">
+                        Расписание
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="https://vk.com/topic-187835462_40438621" target="_blank">
+                        Отзывы
+                     </a>
+                  </li>
+                  <li class="header__nav-item">
+                     <a href="contacts.html">
+                        Контакты
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      </div>
+   </header>
+   <section class="start">
+      <div class="container">
+         <div class="start-info">
+            <h3 class="start-info__title">
+               И так, вы решили начать обучение
+            </h3>
+            <p class="start-info__caption">
+               Что же нужно для того, чтобы приступить?
+            </p>
+         </div>
+         <div class="start-card">
+            <ul class="start-card__list">
+               <li class="start-card__item">
+                  <div class="start-card__item-icon">
+
+                  </div>
+                  <div class="start-card__item-text">
+                     Обучение возможно с 16 лет
+                  </div>
+               </li>
+               <li class="start-card__item">
+                  <div class="start-card__item-icon portrait">
+
+                  </div>
+                  <div class="start-card__item-text">
+                     Две фотографии 3х4
+                  </div>
+               </li>
+               <li class="start-card__item">
+                  <div class="start-card__item-icon med">
+
+                  </div>
+                  <div class="start-card__item-text">
+                     Медицинская справка
+                  </div>
+               </li>
+               <li class="start-card__item">
+                  <div class="start-card__item-icon pass">
+
+                  </div>
+                  <div class="start-card__item-text">
+                     Ваш паспорт и СНИЛС
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="price">
+            <div class="container">
+               <h2 class="price__title">
+                  Определитесь с категорией
+               </h2>
+               <div class="categories-wrapper">
+                  <div class="category">
+                     <div class="category__name">
+                        Категория <strong>B</strong><br>
+                        (легковой автомобиль)
+                     </div>
+                     <div class="category-content">
+                        <div class="category-content__text">
+                           Профессиональная подготовка водителей транспортных средств категории B
+                        </div>
+                        <div class="category-content__price">
+                           МКПП — <span class="text-color">23 900 руб.</span><br>
+                           АКПП — <span class="text-color">24 900 руб.</span>
+                        </div>
+                        <div class="category-content__text">
+                           Профессиональная переподготовка
+                           с категории C на B
+                           <span class="text-color"> — 16 900 руб.</span>
+                        </div>
+                        <div class="category-content__additional">
+                           Все указанные цены включают в себя полный курс обучения с ГСМ.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="category">
+                     <div class="category__name">
+                        Категория <strong>A</strong><br>
+                        (мотоцикл)
+                     </div>
+                     <div class="category-content">
+                        <div class="category-content__text">
+                           Профессиональная подготовка водителей транспортных средств категории <strong>A</strong>
+                        </div>
+                        <div class="category-future">
+                           На данный момент находится в разработке.
+                           Вы можете оставить заявку написав нам на email или позвонив по телефону
+                        </div>
+                        <div class="category-msg">
+                           <a href="tel:88123381008">8 (812) 338-10-08</a><br>
+                           <a href="mailto:mail@lauraschool.ru">mail@lauraschool.ru</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="start-main">
+            <h2 class="">
+               Договор
+            </h2>
+            <p class=" start-info__text">
+               Мы согласовываем с Вами удобное время, Вы приходите к нам в офис для заключения договора и оплачиваете
+               первый взнос в размере 6900 руб.
+            </p>
+            <h2>
+               Теперь можно начинать обучение
+            </h2>
+            <p class="start-info__text">
+               Вам необходимо будет принести справку о прохождении водительской медкомиссии до начала вождений.
+               <br>Также
+               есть возможность пройти медкомиссию при автошколе.
+            </p>
+            <p class="start-info__text_small">
+               ВНИМАНИЕ: Несовершеннолетние граждане могут явиться на заключение договора только в сопровождении
+               одного из родителей, или законного представителя.
+            </p>
+            <p class="start-info__text_small">После окончания курса обучения Вы можете записаться на экзамен в любое
+               удобное
+               подразделение ГИБДД через
+               портал гос услуг и оплатить госпошлину со скидкой 30%</p>
+         </div>
+      </div>
+   </section>
+   <section class="gosuslugi">
+      <div class="container">
+         <h2 class="">
+            Инструкция по регистрации кандидата в водители на портале госуслуг
+         </h2>
+         <p class="gosuslugi__text">
+            Запись на экзамен открывается в день итоговой аттестации а также за 1 день до экзамена в ГИБДД.<br>
+         </p>
+         <p class="gosuslugi__text">
+            1)Заходим на сайт <a href="https://www.gosuslugi.ru/" target="_blank"><strong>ГосУслуги</strong></a>, для
+            регистрации
+            необходимо зайти в личный кабинет ввести логин и
+            пароль).<br>
+            Во вкладке «Услуги» выбираем «Получение права на управление транспортным средством»
+         </p>
+         <img src="img/gos-1.jpeg" alt="">
+         <p class="gosuslugi__text">
+            2) В открывшемся окне выбираем «Получение водительского удостоверения».
+         </p>
+         <img src="img/gos-2.jpeg" alt="">
+         <p class="gosuslugi__text">
+            3) В новой вкладке выбираем «Электронная услуга». После этого в правом углу нажимаем кнопку «Получить
+            услугу».
+         </p>
+         <img src="img/gos-3.jpeg" alt="">
+         <p class="gosuslugi__text">
+            4) После небольшой загрузки нам откроется анкета для заполнения.
+         </p>
+         <img src="img/gos-4.jpeg" alt="">
+         <p class="gosuslugi__text">
+            5) После заполнения всех своих персональных данных, вы дойдете до пункта №5 «Сведения об автошколе».<br>
+
+            Укажите название автошколы - «Лаура».<br>
+
+            «Номер сертификата» — пишем любой набор цифр, дату его выдачи также любую.<br>
+
+            «Хотели бы Вы указать номер лицензии Автошколы?» — Выбираем «НЕТ»
+         </p>
+         <img src="img/gos-5.jpeg" alt="">
+         <p class="gosuslugi__text">
+            6) Номер справки также заполняем произвольными цифрами, дату выдачи — любую дату, номер лицензии — как в
+            образце ниже.
+         </p>
+         <img src="img/gos-6.jpeg" alt="">
+         <p class="gosuslugi__text">
+            7) Выбор подразделения госавтоинспекции. В поисковике вводим-188505, обл. Ленинградская, р-н.
+            Ломоносовский,
+            тер. Промышленная зона Пески, ш. Красносельское, стр. 8.<br>
+
+            Если просит указать квартиру, ставим галочку «Нет квартиры».
+         </p>
+         <img src="img/gos-7.jpeg" alt="">
+         <p class="gosuslugi__text">
+            8) Далее выбираем удобное подразделение Госавтоинспекции. На «карте» в разделе «доступные подразделения»
+            выбираем пункт <strong>«Организованные группы образовательных учреждений (АВТОШКОЛ) Ломоносовского р-на
+               ЛО».</strong>
+         </p>
+         <img src="img/gos-8.jpeg" alt="">
+         <p class="gosuslugi__text">
+            9) Нажимаем поле «Выбрать время записи на прием». Введите дату посещения (вводится дата вашего экзамена в
+            ГИБДД в формате дд.мм.гггг ). Затем выберите ЛЮБОЕ свободное время. В появившемся окне, нажмите «Да,
+            подтверждаю».
+         </p>
+         <img src="img/gos-9.jpeg" alt="">
+         <p class="gosuslugi__text">
+            10) Ставим галочку в пункте « Я ознакомлен с порядком подачи заявления в электронном виде» ⇒ОТПРАВИТЬ.
+         </p>
+         <img src="img/gos-10.jpeg" alt="">
+         <p class="gosuslugi__text">
+            11) Через некоторое время придёт сообщение об оплате госпошлины за выдачу водительского удостоверения в
+            размере 1400 руб. Вводим реквизиты банковской карты, оплачиваем госпошлину и сохраняем УИН-номер платежа
+            для
+            предоставления на экзамене. Распечатывать квитанцию необязательно.<br>
+
+            Внимание! Сообщение об оплате госпошлины рассылается автоматически. В случае, если пошлина уже была
+            оплачена
+            ранее, просто проигнорируйте данное сообщение.
+         </p>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <a class="logo" href="index.html">
+               <img src="img/logo1.svg" alt="">
+            </a>
+            <ul class="footer__menu">
+               <li class="footer__menu-item">
+                  <a href="index.html">
+                     Главная
+                  </a>
+               </li>
+               <li class="footer__menu-item">
+                  <a href="start.html">
+                     Начать обучение
+                  </a>
+               </li>
+               <li class="footer__menu-item">
+                  <a href="documents.html">
+                     Документы
+                  </a>
+               </li>
+               <li class="footer__menu-item">
+                  <a href="contacts.html">
+                     Контакты
+                  </a>
+               </li>
+               <li class="footer__menu-item">
+                  <a href="https://vk.com/topic-187835462_40438621" target="_blank">
+                     Отзывы
+                  </a>
+               </li>
+            </ul>
+            <div class="footer__open">
+               <p class="footer__open-text">
+                  <span>Время работы:</span><br>
+                  Пн-сб с 10:00 до 20:00
+               </p>
+               <p class="footer__open-text">
+                  <span>Выходной:</span> <br>
+                  воскресенье
+               </p>
+            </div>
+            <div class="footer__address">
+               <p class="footer__address-text">
+                  <span>Адрес:</span><br>
+                  198516, Санкт-Петербург, г. Петергоф, пр. Санкт-Петербургский, 60<br>офис 225, 2 этаж
+               </p>
+               <p class="footer__address-phone">
+                  <span> Телефон:</span><br>
+                  8 (812) 338-10-08 / 8 (911) 848-10-08
+               </p>
+               <p class="footer__address-mail">
+                  <span>Почта:</span><br>
+                  <a href="mailto:mail@lauraschool.ru">
+                     mail@lauraschool.ru
+                  </a>
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Права -->
+   <div class="private__policy">
+      <div class="container">
+         <p>
+            Copyright © 2019 Все права защищены @ lauraschool.ru
+         </p>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/lightbox.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
